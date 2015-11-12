@@ -1,9 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
 header {
   border-top: 9px solid #222222;
 }
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: aaarghnormal, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: aaarghnormal, sans-serif;
 }
 
 .clear {
@@ -42,6 +54,8 @@ hr {
 
 .links a {
   color: black;
-  font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-size: 25px;
+  font-family: aaarghnormal, sans-serif;
+  font-weight: bold;
 }
