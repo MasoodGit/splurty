@@ -38,6 +38,10 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # simple_form /* https://github.com/plataformatec/simple_form */
 gem 'simple_form'
 
+#htmlbeautifier for BeautifyRuby Sublime plugin
+gem 'htmlbeautifier'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
