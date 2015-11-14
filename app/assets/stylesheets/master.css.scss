@@ -3,26 +3,24 @@ header {
 }
 
 hr {
-  clear:both;
+  clear: both;
 }
 
 h1 {
-  font-family: aaarghnormal, sans-serif;
-  font-weight: bold;
-  font-size: 48px;
+  font: bold 48px nobileregular, sans-serif
 }
 
 h2 {
-  font-family: aaarghnormal, sans-serif;
+  font-family: nobilemedium_italic, sans-serif;
 }
 
 h2 span {
   color: #dddddd;
-  font-family: aaarghnormal, sans-serif;
+  font-family: nobileregular, sans-serif;
 }
 
 .clear {
-  clear : both;
+  clear: both;
 }
 
 ::selection {
@@ -30,8 +28,7 @@ h2 span {
 }
 
 .circle {
-  font-weight:bold;
-  font-style: italic;
+  font: italic bold 10px/16px nobileregular, sans-serif;
   position: relative;
   border-radius: 100%;
   background: #f84342;
@@ -41,8 +38,6 @@ h2 span {
   margin: 10px 10px;
   text-align: center;
   color: #FFF;
-  font-size: 10px;
-  line-height: 16px;
   cursor: pointer;
   transform:rotate(11deg);
   -ms-transform:rotate(11deg); /* IE 9 */
@@ -63,16 +58,12 @@ h2 span {
 .links a {
   color: black;
   border-bottom: 1px solid #dfdfdf;
-  font-size: 25px;
-  font-family: aaarghnormal, sans-serif;
-  font-weight: bold;
+  font: bold 25px nobileregular, sans-serif;
 }
 
 .next-quote {
   color: #f84342;
-  font-family: aaarghnormal, sans-serif;
-  font-size: 20px;
-  font-style: italic;
+  font: italic 20px nobilemedium_italic, sans-serif;
 }
 
 .footer-blurb {
